@@ -1,0 +1,54 @@
+:root {
+    --primary-bg: #2B2B2B;
+    --secondary-bg: #3B3B3B;
+    --btn-primary: #A259FF;
+    --btn-secondary: #FFFFFF;
+    --primary-text: #FFFFFF;
+    --secondary-text:#858584;
+}
+
+.button-primary{
+    background-color: var(--btn-primary);
+    color: var(--primary-text);
+    padding:  15px 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button-primary img{
+    margin-right: 10px;
+}
+
+.navbar-nav{
+    margin-right: 20px;
+}
+
+li.nav-item{
+    margin-right: 20px;
+}
+
+li.nav-item a{
+    color: var(--primary-text);
+}
+
+.navbar{
+    background-color: var(--secondary-bg) !important;
+}
+
+.navbar-brand{
+    color: var(--primary-text);
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: var(--primary-text);
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1329px;
+    }
+  }
+
+
